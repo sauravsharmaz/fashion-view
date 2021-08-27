@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.productdetails{
+    font-family: 'Poppins', sans-serif;
+}
+ 
+.productdetails .product-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px; 
+    margin-left: 2%;
+}
+.price{
+    font-size: 20px;
+    color: #48d112;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+.description .head{
+    margin-left: 2%;
+}
+.description .detail{
+    margin-left: 2%;
+    color: #777777;
+    margin-top: 2%;
+}
+.cart{
+    background-color: black;
+    color: white; 
+    width: 430px;
+    margin: 5% auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart:hover{
+    transform: scale(1.10);
+    transition: all .5s ease;
+    cursor: pointer;
+}
